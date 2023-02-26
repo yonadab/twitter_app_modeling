@@ -69,7 +69,10 @@ def preprocess(df):
         Lista con twitts limpiados
         
     '''
+	
+    # downloading stopwords and punkt
     nltk.download('stopwords')
+    nltk.download('punkt')
 
     from nltk.corpus import stopwords
     
