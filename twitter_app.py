@@ -69,23 +69,15 @@ def preprocess(df):
         Lista con twitts limpiados
         
     '''
-	
-    # downloading stopwords and punkt
-    nltk.download('stopwords')
-    nltk.download('punkt')
-
-    from nltk.corpus import stopwords
     
     final_text = [] 
     
     punctuation = '''.,#$@&;:_-*+?]¿[¡=!/'''
 
     # STOPWORDS
-    extra_words = ['https','www','http']
-    sw = stopwords.words('spanish')
-    sw_mayusculas = [w.upper() for w in sw]
-    
-    stopwords = sw + extra_words + sw_mayusculas
+    import pickle
+    with open('./stopwords/stopwords.pickle', 'rb') as f:
+	stopwords = pickle.load(f)
     
     for i in df['Tweet']:
         row_text = nltk.tokenize.word_tokenize(i)
