@@ -81,7 +81,7 @@ def preprocess(df):
     punctuation = '''.,#$@&;:_-*+?]¿[¡=!/'''
 
     # STOPWORDS
-    extra_words = ['https','www']
+    extra_words = ['https','www','http']
     sw = stopwords.words('spanish')
     sw_mayusculas = [w.upper() for w in sw]
     
