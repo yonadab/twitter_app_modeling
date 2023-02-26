@@ -1,0 +1,15 @@
+Imagina que para tu tésis de maestría necesitas unos documentos que hablan sobre el calentamiento global y lo único que recuerdas es que están en una carpeta llamada "carpeta tesis". Entras a tu carpeta dispuesto a encontrar esos documentos y... oh sorpresa **la carpeta contiene 100 documentos diferentes y cada uno de ellos con más de mil páginas!!**
+
+Hasta este punto podrías resolver el problema de dos maneras: El primero es intentar buscar por el título del libro para ver cuál documento puede contener los temas en los que estás interesado o peor aún, abrir cada documento y leer apartados para buscar si hay algo sobre el calentamiento global en ese documento e ir descartando aquellos que no tienen nada que ver con el tema de tu interés. 
+
+Como te habrás dado cuenta, esas dos opciones anteriores no son nada llevaderas, sobre todo si esos documentos no contienen los títulos o el nombre del documento no tiene nada que ver con el contenido del documento (cosas que pasan a menudo cuando descargamos archivos de internet).
+
+Para resolver tu problema existe una tercera opción que con un par de segundos resolvería la tarea de decirte, a términos generales, de que se trata cada documento, las palabras más frecuentes y qué documentos comparten entre ellos temas en común. **Bienvenido al tópic modeling**
+
+**El topic modeling o modelado de tema, es una técnica procedente del machine learning que nos ayuda a clasificar, analizar e identificar los temas más relevantes dentro de un conjunto de textos** (o lo que llamamos _corpus_). Es muy útil para entender los temas principales de los que habla el documento/texto ahorrándonos así tiempo y esfuerzo a la hora de analizar nuestros documentos textuales.
+
+Dentro del topic modeling hay un grupo de técnicas que nos permitirán lograr ese objetivo de análisis dentro de nuestros textos, entre estas técnicas se encuentran: _Latent Dirichlet Allocation (LDA)_, _Latent Semantic Analysis (LSA)_ o _Parallel Latent Dirichlet Allocation (PLDA)_ siendo la técnica de **LDA utilizada en este modelo**
+
+Sin embargo, el modelar un tema no es una tarea sencilla ya que hay que tomar en cuenta que las máquinas al contrario de lo que hace nuestro cerebro, no entiende las palabras mediante la misma semántica, es por ello que en algunas ocasiones existen limitantes a la hora de analizar cuál es el tema o temas principales de nuestros documentos y se requerirá de un preprocesamiento del texto para llevar a cabo esta tarea.
+
+**El topic modeling de esta página está configurado para llevar a cabo un modelamiento de los temas principales recuperados en la página de twitter haciendo un preprocesamiento de texto y finalmente un análisis de todos los tweets recuperados** :blush:
