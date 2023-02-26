@@ -242,8 +242,8 @@ with principal:
     with st.expander('**¿Cómo buscar tweets?**'):
         image_consultar = Image.open('./como_consultar.png')
         st.image(image_consultar)
-        st.write('**NOTA: Si se selecciona ninguna fecha ni usuario ni se busca por alguna palabra en particular,\
-                 el programa se buscará por los tweets más relevantes del momento de manera aleatoria')
+        st.write('**NOTA: Si no selecciona ninguna fecha ni usuario ni se busca por alguna palabra en particular,\
+                 el programa buscará los tweets más relevantes del momento de manera aleatoria')
         
         
         
@@ -254,7 +254,7 @@ with principal:
         
     with st.expander('**¿Cómo se muestran los resultados?**'):
         image_topic = Image.open('./topicos.png')
-        st.image(image_topic)
+        st.image(image_topic, width=850)
         st.write('**NOTA: Para una mejor descripción dirígete a la sección _Analizar_')
         
     
