@@ -77,7 +77,8 @@ def preprocess(df):
     # STOPWORDS
     import pickle
     with open('./stopwords/stopwords.pickle', 'rb') as f:
-	stopwords = pickle.load(f)
+	 stopwords = pickle.load(f)
+
     
     for i in df['Tweet']:
         row_text = nltk.tokenize.word_tokenize(i)
