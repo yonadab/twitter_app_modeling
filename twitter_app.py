@@ -69,7 +69,8 @@ def preprocess(df):
         Lista con twitts limpiados
         
     '''
-    
+    nltk.download('stopwords')
+
     from nltk.corpus import stopwords
     
     final_text = [] 
