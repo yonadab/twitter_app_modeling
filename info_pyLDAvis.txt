@@ -1,4 +1,4 @@
-● Cada burbúja representa un tópico/tema.
+● Cada burbuja representa un tópico/tema.
 
 ● Cuanto más grande es la burbuja, mayor es el porcentaje de la cantidad de tweets en el corpus sobre ese tema.
 
@@ -6,7 +6,7 @@
 
 ● Las barras rojas determinan el numero estimado de veces que un termino fué generado por un tema específico.
 
-● El cuadrante representa los temas encontrados en general. Entre más retiradas estén las burbújas mayor diferencia existe entre ellas, por el contrario, entre mas solapadas se encuentren las burbújas más temas y palabras comparten en común
+● El cuadrante representa los temas encontrados en general. Entre más retiradas estén las burbujas mayor diferencia existe entre ellas, por el contrario, entre más solapadas se encuentren las burbujas más temas y palabras comparten en común
 
-● **La barra de métrica de relevancia (relevance metric)** indica el nivel de relevancia de las palabras encontradas para cada tema. Entre menor sea esta métrica, se mostrarán palabras que el modelo determinó como menos relevantes y viceversa.
+● **La barra de métrica de relevancia (relevance metric)** indica el nivel de relevancia de las palabras encontradas para cada tema. Cuanto menor sea esta métrica, se mostrarán palabras que el modelo determinó como menos relevantes y viceversa.
 
