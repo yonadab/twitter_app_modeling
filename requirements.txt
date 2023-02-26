@@ -1,5 +1,5 @@
 pandas
 gensim
 snscrape
-nltk
+nltk==3.7
 pyLDAvis
