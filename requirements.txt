@@ -1,0 +1,5 @@
+pandas
+gensim
+snscrape
+nltk
+pyLDAvis
